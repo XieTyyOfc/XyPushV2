@@ -1,0 +1,27 @@
+{
+  "name": "Xiety",
+  "version": "2.0",
+  "description": "XyPush bot multi device",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "pm2 start index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.3.0",
+    "awesome-phonenumber": "^6.0.0",
+    "chalk": "^4.1.2",
+    "crypto": "^1.0.1",
+    "figlet": "^1.7.0",
+    "open": "^0.0.5",
+    "pino": "^8.16.2",
+    "qrcode-terminal": "^0.12.0",
+    "readline": "^1.3.0",
+    "readline-sync": "^1.4.10",
+    "util": "^0.12.5"
+  }
+}
